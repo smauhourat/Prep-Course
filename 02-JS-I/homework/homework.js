@@ -1,4 +1,5 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
+const aaaa='';
 
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = null;
