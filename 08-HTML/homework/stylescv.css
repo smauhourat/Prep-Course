@@ -1,0 +1,46 @@
+body {
+    font-family: 'open sans';
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 1.5rem;    
+}
+h1 {
+    font-size:1.5rem
+}
+.container {display: flex; align-items: center; justify-content: center; padding-top: 100px; flex-direction: column;}
+
+.photo { 
+    margin: 0 auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.photo img {
+    width: 200px;
+  }
+
+  .round-img {
+    border-radius: 40%;
+  }
+
+  .large {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  /* .personal {
+    border: 1px solid #000;
+  } */
+
+  .card.card-header {
+    font-size: 1.25;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 30px
+  }
