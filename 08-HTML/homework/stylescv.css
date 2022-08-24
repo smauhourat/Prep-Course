@@ -4,23 +4,41 @@ body {
     line-height: 24px;
     font-size: 1.5rem;    
 }
+
+a {
+  /* color: var(--primary-color); */
+  text-decoration: none;
+}
+
 h1 {
     font-size:1.5rem
 }
-.container {display: flex; align-items: center; justify-content: center; padding-top: 100px; flex-direction: column;}
+
+h5 {
+  font-weight: 505;
+  color: rgb(87, 84, 84)
+}
+
+.container {display: flex; align-items: center; justify-content: center; padding-top: 100px; flex-direction: column; width: 100%; }
+
+.medium {
+  font-size: 1rem;
+  font-weight: 550;
+}
 
 .photo { 
     margin: 0 auto;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .photo img {
     width: 200px;
   }
 
   .round-img {
-    border-radius: 40%;
+    border-radius: 50%;
   }
 
   .large {
@@ -42,5 +60,64 @@ h1 {
   }
 
   .card {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    width: 100%
   }
+
+  .card-body ul>li {
+    margin-bottom: 2rem;
+  }
+
+
+/* Padding */
+.p {
+  padding: 0.5rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.py {
+  padding: 0.5rem 0;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* Margin */
+.m {
+  margin: 0.5rem;
+}
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+.my {
+  margin: 0.5rem 0;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+
